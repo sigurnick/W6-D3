@@ -1,0 +1,23 @@
+.btn{
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.btn-blue{
+    @extend .btn;
+    background-color: $blue;
+    border: 3px solid darken($blue, 5%);
+}
+
+.btn-green{
+    @extend .btn;
+    background-color: $green;
+    border: 3px solid darken($green, 5%);
+}
+
+.btn-grey{
+    @extend .btn;
+    background-color: $grey;
+    border: 3px solid darken($grey, 5%);
+}

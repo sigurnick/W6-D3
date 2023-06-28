@@ -1,0 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;400;700&display=swap');
+
+  $fs-p: 0.5em;
+  $fs-m: 1em;
+  $fs-l: 1.5em;
+  $fs-xl: 3em;
+
+  h2{
+    font-size: $fs-xl;
+    font-weight: bold;
+}
+p{
+    font-size: $fs-m;
+
+}

@@ -1,0 +1,68 @@
+@import "partials/reset";
+@import "partials/variables";
+@import "partials/colors";
+@import "partials//button";
+@import "partials/font";
+@import "partials/mixin";
+@import "partials/spacing";
+
+body {
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: $blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    width: 130px;
+  }
+}
+
+nav {
+  ul {
+    li {
+      display: inline;
+      margin-right: 5px;
+      font-size: $fs-m;
+
+      a {
+        text-decoration: none;
+        color: $dark-green;
+      }
+    }
+  }
+}
+
+#hero {
+  height: 400px;
+  background-image: url(/assets/img/finlandis.avif);
+  background-size: cover;
+  background-position-y: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  div#info {
+    background-color: $dark-green;
+    border-radius: 15px;
+    border: 3px solid $green;
+    color: $light-blue;
+    margin-top: 50px;
+    padding: 10px;
+    h2 {
+      margin-bottom: 10px;
+    }
+  }
+  div#button-list {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

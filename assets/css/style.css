@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.btn, .btn-grey, .btn-green, .btn-blue {
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.btn-blue {
+  background-color: rgb(16, 91, 122);
+  border: 3px solid #0d4a63;
+}
+
+.btn-green {
+  background-color: rgb(124, 137, 65);
+  border: 3px solid #6c7839;
+}
+
+.btn-grey {
+  background-color: rgb(215, 215, 208);
+  border: 3px solid #cbcbc2;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1em;
+}
+
+body {
+  font-family: "Ysabeau SC", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(16, 91, 122);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header img {
+  width: 130px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5px;
+  font-size: 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(40, 56, 46);
+}
+
+#hero {
+  height: 400px;
+  background-image: url(/assets/img/finlandis.avif);
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#hero div#info {
+  background-color: rgb(40, 56, 46);
+  border-radius: 15px;
+  border: 3px solid rgb(124, 137, 65);
+  color: rgb(69, 142, 174);
+  margin-top: 50px;
+  padding: 10px;
+}
+#hero div#info h2 {
+  margin-bottom: 10px;
+}
+#hero div#button-list {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */
