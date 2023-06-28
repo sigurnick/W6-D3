@@ -8,16 +8,28 @@
     @extend .btn;
     background-color: $blue;
     border: 3px solid darken($blue, 5%);
+    &:hover{
+    background-color: lighten($blue, 20%);
+
+    }
 }
 
 .btn-green{
     @extend .btn;
     background-color: $green;
     border: 3px solid darken($green, 5%);
+    &:hover{
+        background-color: lighten($green, 20%);
+    
+        }
 }
 
 .btn-grey{
     @extend .btn;
     background-color: $grey;
     border: 3px solid darken($grey, 5%);
+    &:hover{
+        background-color: darken($grey, 20%);
+    
+        }
 }
